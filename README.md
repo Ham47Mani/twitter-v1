@@ -22,7 +22,7 @@
   <p align="center">
     twitter-v1 is a simple twitter clone, i make this simple website as a practice for nextjs & tailwindcss.
     <br />
-    <a href="">View Demo</a>
+    <a href="https://hb-twitter-v1.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/Ham47Mani/twitter-v1/issues">Report Bug</a>
     ·

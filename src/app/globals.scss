@@ -17,7 +17,7 @@
   .icon {
     @apply capitalize hidden xl:block xl:ml-4 font-bold
   }
-  .link-active {
+  .link-active, .dark .link-active {
     @apply text-blue-400;
   }
 
