@@ -1,0 +1,25 @@
+// ============================ Start Asidebar ============================
+// ------ Search Box
+.search {
+  &__icon {
+    @apply text-gray-600 absolute left-4 top-1/2 -translate-y-1/2;
+  }
+  &__input {
+    @apply w-full pl-12 bg-gray-200 dark:bg-dim-400 border border-gray-200 dark:border-dim-400
+          text-gray-100 focus:outline-none font-normal h-9 text-sm rounded-full
+  }
+}
+
+// ------ Hash Tags Box
+.asidebar-box {
+  @apply bg-gray-50 dark:bg-dim-700 rounded-2xl m-2;
+
+  &__title {
+    @apply text-gray-900 dark:text-white font-bold p-5 border-b border-gray-200 dark:border-dim-200
+  }
+
+  &__item {
+    @apply p-3 border-b border-gray-200 dark:border-dim-200;
+  }
+}
+// ============================ End Asidebar ============================

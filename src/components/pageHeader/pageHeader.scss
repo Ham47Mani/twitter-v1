@@ -1,0 +1,11 @@
+// ========================= Start Page Header =========================
+.page-header {
+  @apply flex justify-between items-center border px-4 py-3 sticky top-0 bg-white dark:bg-dim-900
+          border-gray-200 dark:border-gray-700 capitalize;
+
+  &__title {
+    @apply text-gray-800 dark:text-gray-100 font-bold
+  }
+}
+
+// ========================= End Page Header =========================

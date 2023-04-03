@@ -1,0 +1,52 @@
+// ================ Start Add Tailwind Properties ================
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+// ================ End Add Tailwind Properties ================
+
+
+// ====================== Start My Framework ====================== 
+@layer components {
+  .link {
+    @apply flex justify-center items-center xl:justify-start;
+  }
+  .nav-item {
+    @apply flex justify-center items-center xl:justify-start text-gray-800 dark:text-white mb-6
+    hover:text-blue-400 dark:hover:text-blue-400 transition duration-300 ease-in-out
+  }
+  .icon {
+    @apply capitalize hidden xl:block xl:ml-4 font-bold
+  }
+  .link-active {
+    @apply text-blue-400;
+  }
+
+  //=== Navbar Button Style
+  .btn {
+    @apply mx-auto w-11 xl:w-full h-11 flex items-center justify-center rounded-full 
+        text-white font-bold transition duration-300
+  }
+  .btn-blue {
+    @apply bg-blue-400 hover:bg-blue-500
+  }
+}
+
+//------ Customize Scroll bar
+@layer utilities {
+  //--- Width Of Scrollbar
+  ::-webkit-scrollbar, .dark ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  //--- Track Of Scrollbar
+  ::-webkit-scrollbar-track { background: white; }
+  .dark ::-webkit-scrollbar-track { background: #374151 }
+
+  //--- Handle Scrollbar
+  ::-webkit-scrollbar-thumb { background: #CCC; border: 2px solid white; border-radius: 10px; }
+  .dark ::-webkit-scrollbar-thumb { background: #6B7280; border: 2px solid #374151 }
+
+  //--- Track Of Scrollbar
+}
+// ====================== End My Framework ====================== 
